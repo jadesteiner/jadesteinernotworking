@@ -1,0 +1,51 @@
+body {
+  background-color: LavenderBlush;
+font-family: "georgia", serif;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 30px;
+margin-right: 30px;
+
+}
+
+nav {font-family: "georgia", georgia, serif;
+  text-align: center;
+  color: DeepPink;
+
+}
+
+
+p{text-align: center;
+  font-family: "georgia", georgia, serif;
+
+}
+
+h1 {
+font-family: "Century Gothic", CenturyGothic, sans-serif;
+text-align: center;
+color: DeepPink;
+
+}
+
+h2 {color: HotPink;
+
+}
+h3 {color: HotPink;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+}
+.grid-item {
+  padding: 5px;
+  font-size: 0px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
